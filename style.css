@@ -131,7 +131,7 @@ footer {
     justify-content: center;
     height: auto;
   }
-  .section-1{
+  .section-1 {
     padding: 1rem;
     text-align: center;
   }
@@ -149,17 +149,66 @@ footer {
     margin: 0.5rem;
     width: 100%;
   }
-  .section-3{
-  flex-wrap: wrap;
-  height: auto;
-  gap: 1rem;
-  padding: 1rem;
+  .section-3 {
+    flex-wrap: wrap;
+    height: auto;
+    gap: 1rem;
+    padding: 1rem;
   }
-  .section-3 div{
+  .section-3 div {
     border-bottom: 2px solid darkred;
   }
-  footer{
-  height: auto;
+  footer {
+    height: auto;
+    padding: 1rem;
+  }
+}
+
+/* ABOUT PAGE */
+.section-4 {
+  background-color: wheat;
+  color: black;
+  width: 100%;
+  height: 68vh;
+  padding: 2rem;
+  gap: 4rem;
+  display: flex;
+  justify-content: center;
+}
+.about-us {
+  width: 40%;
+}
+.paragraph-2 {
+  background-color: darkred;
   padding: 1rem;
+  color: wheat;
+}
+.what-we {
+  background-color: darkred;
+  color: wheat;
+  padding: 1rem;
+  width: 20%;
+  height: auto;
+}
+@media (max-width: 800px) {
+  .section-4 {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+  }
+  .about-us {
+    width: 100%;
+    height: auto;
+  }
+  .paragraph-2 {
+    width: 100%;
+    height: auto;
+  }
+  .what-we {
+    width: 100%;
   }
 }
