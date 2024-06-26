@@ -10,7 +10,7 @@ body {
 }
 .container {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   font-family: "Playwrite NG Modern", cursive;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -18,11 +18,14 @@ body {
 }
 /* NAVBAR */
 .navbar {
+  box-sizing: border-box;
   border-bottom: 3px solid darkred;
+  width: 100%;
+  height: 10vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0rem 3rem;
+  padding: 0rem 2rem;
 }
 .navbar p {
   font-size: 2rem;
@@ -34,10 +37,6 @@ body {
 ul {
   list-style-type: none;
   display: flex;
-  justify-content: space-around;
-  width: 25%;
-  margin: 0;
-  padding: 0;
 }
 a {
   color: white;
@@ -48,4 +47,20 @@ a:hover {
   color: darkred;
   background-color: gray;
   border-radius: 0.5rem;
+}
+/* SECTİON 1 */
+.section-1 {
+  width: 100%;
+  height: 40vh;
+  background-image: url(./images/showcase.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section-1 h1 {
+  font-size: 2.2rem;
 }
