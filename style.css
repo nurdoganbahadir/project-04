@@ -35,7 +35,7 @@ body {
 .navbar span {
   color: gray;
 }
-ul {
+.nav-list {
   list-style-type: none;
   display: flex;
 }
@@ -123,4 +123,39 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 2rem;
+}
+/* MEDİA */
+@media (max-width: 800px) {
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+  }
+  .section-1 {
+    padding: 1rem;
+    text-align: center;
+  }
+  .section-2 {
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    border: none;
+  }
+  .mail-to {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    width: 100%;
+  }
+  .section-3 {
+    flex-wrap: wrap;
+    height: auto;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  .section-3 div {
+    border-bottom: 2px solid darkred;
+  }
 }
