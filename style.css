@@ -211,6 +211,10 @@ footer {
   .what-we {
     width: 100%;
   }
+  footer {
+    height: auto;
+    padding: 1rem;
+  }
 }
 /* SERVİCES PAGE */
 .section-5 {
@@ -269,6 +273,10 @@ input {
   .get-a-quote {
     position: static;
     width: 60%;
+  }
+  footer {
+    height: auto;
+    padding: 1rem;
   }
 }
 @media (max-width: 800px) {
