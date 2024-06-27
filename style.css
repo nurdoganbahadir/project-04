@@ -190,7 +190,7 @@ footer {
   width: 20%;
   height: auto;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .section-4 {
     flex-wrap: wrap;
     flex-direction: column;
@@ -211,4 +211,51 @@ footer {
   .what-we {
     width: 100%;
   }
+}
+/* SERVİCES PAGE */
+.section-5 {
+  justify-content: stretch;
+  position: relative;
+}
+.services {
+  width: 60%;
+}
+.website-cash {
+  background-color: darkred;
+  color: wheat;
+  padding: 1rem;
+  margin: 1rem 0rem;
+  font-size: 0.8rem;
+}
+.get-a-quote {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: rgba(231, 124, 1, 0.836);
+  color: rgb(3, 2, 0);
+  width: 25%;
+  padding: 0rem 1rem;
+}
+.get-a-quote div{
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0rem;
+}
+input{
+  height: 2rem;
+  padding-left: 1rem;
+}
+#message{
+  height: 5rem;
+  padding-left: 1rem;
+}
+#sub{
+  background-color: darkred;
+  color:white;
+  margin-top: 0.5rem;
+  width: 5rem;
+  height: 2.5rem;
+  border: none;
+  cursor: pointer;
+  padding: 0;
 }
