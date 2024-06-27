@@ -236,26 +236,47 @@ footer {
   width: 25%;
   padding: 0rem 1rem;
 }
-.get-a-quote div{
+.get-a-quote div {
   display: flex;
   flex-direction: column;
   margin: 1rem 0rem;
 }
-input{
+input {
   height: 2rem;
   padding-left: 1rem;
 }
-#message{
+#message {
   height: 5rem;
   padding-left: 1rem;
 }
-#sub{
+#sub {
   background-color: darkred;
-  color:white;
+  color: white;
   margin-top: 0.5rem;
   width: 5rem;
   height: 2.5rem;
   border: none;
   cursor: pointer;
   padding: 0;
+}
+@media (max-width: 1420px) {
+  .section-5 {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    height: auto;
+  }
+  .get-a-quote {
+    position: static;
+    width: 60%;
+  }
+}
+@media (max-width: 800px) {
+  .services {
+    width: 90%;
+  }
+
+  .get-a-quote {
+    width: 90%;
+  }
 }
